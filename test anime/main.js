@@ -74,10 +74,29 @@ tl.add({
     delay: (el, i) => 100 + 30 * i
   });
 
-  document.querySelector('  #btns .play').onclick = tl.play;
-  document.querySelector(' #btns .pause').onclick = tl.pause; 
+/* Anime Play Pause*/   
+  document.querySelector(' #btns .play').onclick = tl.play;
+  document.querySelector(' #btns .pause').onclick = tl.pause;  
 
  
-         
-       
+/* Audio Play Pause*/         
+function play() {
+    var audio = document.getElementById('audio');
+    if (audio.paused) {
+        audio.play(); 
+    }else{
+        audio.pause();
+        audio.currentTime = 0 
+    }
+}
+
+function pause() {
+    var audio = document.getElementById('audio');
+    if (audio.play) {
+        audio.pause(); 
+    }else{
+        audio.play();
+        audio.currentTime = 0 
+    }
+}
  
