@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+
+
+body{
+  margin: 0;
+  font-family: 'Comfortaa', cursive;
+  overflow: hidden;
+  background-color: #e7464f;
+   
+} 
+
+#btns{
+  position: absolute;
+  right: 10px; 
+  padding: 20px;
+}
+
+#btns button{
+  background: transparent;
+  padding: 5px 10px;
+  border: 0;
+}
+
+
+#btns ion-icon {
+   font-size: 2rem;
+   color:white;
+}
+
+h1{
+  position: absolute;
+  top: 20rem; 
+  right: 1rem;  
+  font-size: 2.5rem;
+  line-height: 1em; 
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  text-align: right;
+}
+
+ 
+/* Anime 1 */
+ 
+  .ml2 {
+    font-weight: 700; 
+  }
+  
+  .ml2 .letter {
+    display: inline-block;
+  }
+
+
+  /* Anime 2 */
+
+  .ml3 {
+    font-weight: 700; 
+  }
+
+  /* Anime 3 */
+
+  .ml12 {
+    font-weight: 700;  
+  }
+  
+  .ml12 .letter {
+    display: inline-block; 
+  }
+   
